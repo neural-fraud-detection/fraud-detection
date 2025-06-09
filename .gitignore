@@ -22,3 +22,46 @@ coverage.xml
 build/
 # Ignore distribution files
 dist/           
+# Ambiente virtual
+.venv/
+venv/
+
+# VS Code settings
+.vscode/
+
+# Jupyter checkpoints
+**/.ipynb_checkpoints/
+
+# Arquivos temporários e caches
+__pycache__/
+*.py[cod]
+*.so
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Dados e modelos gerados
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.npy
+*.npz
+models/
+*.csv
+*.db
+*.sqlite3
+
+# Arquivos de configuração locais
+.env
+.envrc
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
